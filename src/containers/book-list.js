@@ -30,7 +30,7 @@ function mapStateToProps(state) {
 // The purpose of this function is to take our application's state. Whatever is returned from here will show up as props inside of BooksList. It will be this.props
   return {
     books: state.books
-  };
+  }
 }
 
 
